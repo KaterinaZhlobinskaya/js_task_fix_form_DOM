@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=function(e){return"lastName"===e?"Last Name":"firstName"===e?"First Name":e.charAt(0).toUpperCase()+e.slice(1)};document.querySelectorAll("form").forEach(function(t){t.querySelectorAll("input").forEach(function(t){var n=document.createElement("label");n.className="field-label",n.htmlFor=t.id,n.textContent=e(t.name),t.placeholder=e(t.name),t.parentNode.insertBefore(n,t)})})});
+//# sourceMappingURL=index.b4fbfbde.js.map
